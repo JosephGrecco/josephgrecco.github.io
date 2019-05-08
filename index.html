@@ -23,6 +23,9 @@
                 <label for="input3">input3</label>
                  <input type="submit" value='submit' class="submit">
                 <p class="results">nothing</p>
+                <p class="difference"></p>
+                <p class="product"></p>
+                <p class="quotient"></p>
     
             </div>
             
@@ -38,7 +41,9 @@
                     console.log(b);
                     
                     var out = document.querySelector(".results");
+                    
                     var c = Math.sqrt(Math.pow(a) + Math.pow(b));
+                    
                     
                     out.innerHTML = parseFloat(c);
                   
