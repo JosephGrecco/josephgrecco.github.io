@@ -21,8 +21,7 @@
             
             <div>
                 <label for="input3">input3</label>
-                 <input type="submit" value='submit' class="submit">
-                <p class="results">nothing</p>
+                 <input type="submit" value='submit' class="submit"
                 <p class="addition"></p>
                 <p class="subtraction"></p>
                 <p class="multipulcation"></p>
@@ -34,24 +33,24 @@
                // alert("This page is under development");
                 var compute = document.querySelector('.submit');
                 
-                function addition (){
-                    var a = parseFloat(document.querySelector('.input1').value);
+                function calculator(){
+                    var a = parseFloat(document.querySelector(".input1").value);
                     console.log(a);
                     
-                    var b = parseFloat(document.querySelector('.input2').value);
+                    var b = parseFloat(document.querySelector(".input2").value);
                     console.log(b);
                     
-                    var out = document.querySelector(".results");
+                    var sum = document.querySelector("sum");
+                    var difference = document.querySelector("difference");
+                    var product = document.querySelector('.product');
+                    var quotient = document.querySelector("quotient");
                     
-                    var c = Math.sqrt(Math.pow(a) + Math.pow(b));
-                    
-                    
-                    out.innerHTML = parseFloat(c);
-                  
-                    
-                  //  document.querySelector(".results").innerHTML = parseInt(document.querySelector(".num1").value);
+                    sum.innerHTML = a +b;
+                    difference.innerHTML = a - b;
+                    product.innerHTML = a * b;
+                    quotient.innerHTML = a / b;
                 }
-                compute.addEventListener("click", addition);
+                compute.addEventListener("click", calculator);
                 </script>
                 </body>
 </html>
