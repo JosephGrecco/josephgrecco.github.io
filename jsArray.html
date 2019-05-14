@@ -28,7 +28,7 @@
         var radios = document.getElementsByName("response");
         for(var i = 0; i < radios.length; i++){
             if (radios[i].checked){
-                out.outerHTML = radios[i].value;
+                out.innerHTML = radios[i].value;
                 break;
                     
             }
