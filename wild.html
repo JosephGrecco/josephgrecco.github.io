@@ -2,7 +2,8 @@
 <html>
  
     <head>
-     <title>Test your musical knowledge</title>
+        <title>Test your musical knowledge</title>
+        <script src="project.js"></script>
     </head>   
     
     <body>
@@ -42,7 +43,7 @@
         </div>
         
         <div>
-            <p>What band sings these lyrics, ""When I find myself in times of trouble/ Mother Mary comes to me/ Speaking words of wisdom, let it be"</p>
+            <p>What band sings these lyrics, "When I find myself in times of trouble/ Mother Mary comes to me/ Speaking words of wisdom, let it be"</p>
             <input type="radio" name="question4" value="The Beatles">The Beatles</br>
             <input type="radio" name="question4" value="The Who">The Who</br>
             <input type="radio" name="question4" value="The Beach Boys">The Beach Boys</br>
@@ -69,57 +70,58 @@
               
         function reply(){
             var radios1 = document.getElementsByName("question1");
-            for(var i = 0; i < radios.length; i++){
+            for(var i = 0; i < radios1.length; i++){
                 if (radios1[i].checked) {
                     if(radios1[i].value == "230 strings"){
                         out1.innerHTML = "correct";
                     }
                     else{
-                        out1.innerHTML = "Wrong";
+                        out1.innerHTML = "Wrong"}
                     }
                     break;
                 }
-            }
+        
             var radios2 = document.getElementsByName("question2");
-            for(var i = 1; i < radios.length; i++){
+            for(var i = 0; i < radios2.length; i++){
                 if (radios2[i].checked) {
                     if(radios2[i].value == "John Bohnham"){
-                        out1.innerHTML = "correct";
+                        out2.innerHTML = "correct";
                     }
                     else{
-                        out1.innerHTML = "Wrong";
+                        out2.innerHTML = "Wrong"}
                     }
                     break;
                 }   
              
         
             var radios3 = document.getElementsByName("question3");
-            for(var i = 2; i < radios.length; i++){
+            for(var i = 0; i < radios3.length; i++){
                 if (radios3[i].checked) {
                     if(radios3[i].value == "Third Stone from the Sun"){
-                        out1.innerHTML = "correct";
+                        out3.innerHTML = "correct";
                     }
                     else{
-                        out1.innerHTML = "Wrong";
+                        out3.innerHTML = "Wrong"}
                     }
                     break;
                 }
             
             
             var radios4 = document.getElementsByName("question4");
-            for(var i = 3; i < radios.length; i++){
+            for(var i = 0; i < radios4.length; i++){
                 if (radios4[i].checked) {
                     if(radios4[i].value == "The Beatles"){
-                        out1.innerHTML = "correct";
+                        out4.innerHTML = "correct";
                     }
                     else{
-                        out1.innerHTML = "Wrong";
+                        out4.innerHTML = "Wrong"}
                     }
                     break;
                 }
                 
-        
+        }
         submit.addEventListener("click", reply);
-        
+        </script>
     </body>
+    
 </html>
