@@ -137,6 +137,32 @@
                     break;
                 }
                 
+                
+            var radios5 = document.getElementsByName("question5");
+            for(var i = 0; i < radios5.length; i++){
+                if (radios5[i].checked) {
+                    if(radios5[i].value == "Led Zeppelin"){
+                        out5.innerHTML = "correct";
+                    }
+                    else{
+                        out5.innerHTML = "Wrong"}
+                    }
+                    break;
+                }
+                
+                
+            var radios6 = document.getElementsByName("question6");
+            for(var i = 0; i < radios6.length; i++){
+                if (radios6[i].checked) {
+                    if(radios6[i].value == "Metallica"){
+                        out6.innerHTML = "correct";
+                    }
+                    else{
+                        out6.innerHTML = "Wrong"}
+                    }
+                    break;
+                }
+                
         }
         submit.addEventListener("click", reply);
         </script>
