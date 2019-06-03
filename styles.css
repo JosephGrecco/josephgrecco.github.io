@@ -1,7 +1,35 @@
-p {
+.q1{
     font-size: medium;
     font-family: fantasy;
-    color: grey;
+    color: green;
 }
 
-    
+.q2{
+    font-size: medium;
+    font-family: fantasy;
+    color: blue;
+}
+
+.q3{
+    font-size: medium;
+    font-family: fantasy;
+    color: purple;
+}
+
+.q4{
+    font-size: medium;
+    font-family: fantasy;
+    color: maroon;
+}
+
+.q5{
+    font-size: medium;
+    font-family: fantasy;
+    color: violet;
+}
+
+.q6{
+    font-size: medium;
+    font-family: fantasy;
+    color: navy;
+}
