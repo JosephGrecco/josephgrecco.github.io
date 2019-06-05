@@ -4,6 +4,7 @@ html{
 }
 
 body{
+    text-align:center;
     width: 80%;
     height: 100%;
     margin-left: auto;
@@ -52,4 +53,9 @@ p {
     font-size: medium;
     font-family: fantasy;
     color: navy;
+}
+
+div{
+    margin-left:auto;
+    margin-Right:auto;
 }
