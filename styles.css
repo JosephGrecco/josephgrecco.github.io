@@ -15,43 +15,43 @@ body{
 
 p {
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: white;
 }
 
 .q1{
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: green;
 }
 
 .q2{
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: blue;
 }
 
 .q3{
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: purple;
 }
 
 .q4{
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: maroon;
 }
 
 .q5{
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: violet;
 }
 
 .q6{
     font-size: medium;
-    font-family: fantasy;
+    font-family: stylesheet;
     color: navy;
 }
 
