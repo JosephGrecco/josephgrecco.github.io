@@ -15,43 +15,43 @@ body{
 
 p {
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: 'Suwannaphum', cursive;
     color: white;
 }
 
 .q1{
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: 'Suwannaphum', cursive;
     color: green;
 }
 
 .q2{
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: 'Suwannaphum', cursive;
     color: blue;
 }
 
 .q3{
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: 'Suwannaphum', cursive;
     color: purple;
 }
 
 .q4{
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: Suwannaphum, cursive;
     color: maroon;
 }
 
 .q5{
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: Suwannaphum, cursive;
     color: violet;
 }
 
 .q6{
     font-size: medium;
-    font-family: Suwannaphum;
+    font-family: Suwannaphum, cursive;
     color: navy;
 }
 
